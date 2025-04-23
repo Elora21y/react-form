@@ -3,7 +3,7 @@ import { AssetContext } from '../FamilyTree/FamilyTree';
 
 const Speacial = () => {
     const asset = useContext(AssetContext)
-    return (
+    return ( 
         <div>
             <p>Spacial : {asset}</p>
         </div>

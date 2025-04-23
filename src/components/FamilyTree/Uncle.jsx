@@ -1,6 +1,6 @@
 import React, { use } from 'react';
 import Cousin from './Cousin';
-import { MoneyContext } from './FamilyTree';
+import { MoneyContext } from './FamilyTree'; 
 
 const Uncle = () => {
     const [money , setMoney] = use(MoneyContext)
